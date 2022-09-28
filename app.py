@@ -27,6 +27,8 @@ def home():
 # TO DO:  Log out the prediction value
 @app.route("/predict")
 def predict():
+    html = "<h3>asas Prediction Home</h3>"
+    return html.format(format)
     """Performs an sklearn prediction
 
     input looks like:
