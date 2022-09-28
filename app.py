@@ -25,7 +25,7 @@ def home():
     return html.format(format)
 
 # TO DO:  Log out the prediction value
-@app.route("/predict", methods=['POST'])
+@app.route("/predict")
 def predict():
     """Performs an sklearn prediction
 
