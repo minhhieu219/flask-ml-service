@@ -21,14 +21,12 @@ def scale(payload):
 
 @app.route("/")
 def home():
-    html = "<h3>adadada Prediction Home</h3>"
+    html = "<h3>cccc Prediction Home</h3>"
     return html.format(format)
 
 # TO DO:  Log out the prediction value
-@app.route("/predict")
+@app.route("/predict", methods=['POST'])
 def predict():
-    html = "<h3>asas Prediction Home</h3>"
-    return html.format(format)
     """Performs an sklearn prediction
 
     input looks like:
